@@ -31,7 +31,7 @@ const User = [
         name:'sleep',
         message:'[>] Insert Sleep (MiliSeconds):',
         validate: function(value){
-            value = value.match(/[0-9]/);
+            value = value.match(/[0-1]/);
             if (value) return true;
             return 'Delay is number';
         }
