@@ -77,7 +77,7 @@ const Excute = async function(User, sleep){
         do {
             if (cursor) feed.setCursor(cursor);
             var media = await feed.get(1);
-            media = _.chunk(media, 10);
+            media = _.chunk(media, 2);
             for (var i = 0; i < media.length; i++) {
                 await Promise.all(media[i].map(async (media) => {
                     const doLike = await Like(doLogin.session, media);
