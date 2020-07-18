@@ -4,9 +4,11 @@
  * 
  * Original author of this project is man who say himself as "CCOCOT"
  * He deleted his own repository, then several members of SGBTeam are taking care
- * of development and new features.
+ * of development and new features.And now this is modified by @mohsanjid.
+ 
+     Modified by www.youtube.com/PhotoLooz
  * 
- * And this is collection of several developments that have been carried out so far
+ * 
  *
  * All credits to contributor are written in their each file development
  * 
@@ -123,12 +125,17 @@ const main = async () => {
 
 console.log(chalk`
   {bold.cyan
-  ╦┌┐┌┌─┐┌┬┐┌─┐┌─┐┬─┐┌─┐┌┬┐
-  ║│││└─┐ │ ├─┤│ ┬├┬┘├─┤│││
-  ╩┘└┘└─┘ ┴ ┴ ┴└─┘┴└─┴ ┴┴ ┴
-  ╔╦╗┌─┐┌─┐┬  ┌─┐    © 2019
-   ║ │ ││ ││  └─┐   SGBTeam 
-   ╩ └─┘└─┘┴─┘└─┘   -------       
+    
+
+       ////////                                               /////////////
+      ///        //    //  ///////    ////////     //////         //
+        ////	//    //  //   //    //    ///    //////// 	 //
+         ////	//   //  ///////    /////////    //   ///       //
+   /////// 	//////  //         //    ///    ////////       //
+                       //         ////////      //////
+
+                                                 © PHOTOLOOZ 2020
+                                                       -------       
 }
       `);
 
