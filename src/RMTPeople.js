@@ -292,13 +292,10 @@ console.log(chalk`
       caption from each media target.
 
   ——————————————————  [THANKS TO]  ————————————————————
-  [✓] RMT BY MAS OKKY (@masokky_)
   [✓] CODE BY CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
   [✓] FIXING & TESTING BY SYNTAX (@officialputu_id)
-  [✓] CCOCOT.CO | BC0DE.NET | NAONLAH.NET | WingkoColi
-  [✓] SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net 
-  —————————————————————————————————————————————————————
-}
+  [✓] MODIFIED BY @mohsanjid X PhotoLooz
+  —————————————————————————————————————————————————————}
       `);
 inquirer.prompt(User)
 .then(answers => {
