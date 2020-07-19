@@ -10,7 +10,7 @@ Modified by "mohsanjid".Subscribe my channel for more autmation tools www.youtub
 ### Installation
 
 ```
-$ git clone https://https://github.com/sanjidtk/sbot
+$ git clone https://github.com/sanjidtk/sbot
 $ cd sbot
 $ node index.js
 ```
