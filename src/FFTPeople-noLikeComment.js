@@ -155,8 +155,6 @@ const Excute = async function(User, TargetUsername, Sleep, accountsPerDelay){
           if (!getFollowers.includes(akun.id) && akun.params.isPrivate === false) {
             const ngeDo = await Follow(doLogin.session, akun.id)
             console.log(chalk`[{magenta ${timeNow}}] {bold.cyan [>]}${akun.params.username} => ${ngeDo}`)
-          } else {
-            console.log(chalk`[{magenta ${timeNow}}] {bold.yellow [SKIP]}${akun.params.username} => PRIVATE OR ALREADY FOLLOWED`)
           }
         }));
         console.log(chalk`{yellow \n [#][>][{cyan Account: ${User.username}}][{cyan Target: @${TargetUsername}}] Delay For ${Sleep} MiliSeconds [<][#] \n}`)
